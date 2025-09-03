@@ -3,3 +3,7 @@
 -- Add any additional options here
 vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
+vim.api.nvim_create_autocmd({ "FileType" }, {
+    pattern = { "markdown" },
+    command = "setlocal nospell",
+})
