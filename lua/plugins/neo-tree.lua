@@ -11,7 +11,7 @@ return {
         ---@module 'neo-tree'
         ---@type neotree.Config
         opts = {
-            popup_border_style = "",
+            popup_border_style = "rounded",
             window = {
                 position = "float",
             },
